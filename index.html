@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP</title>
+    <link rel="stylesheet" href="diseño.css">
+
+    <!-- javascript -->
+    <script type="text/javascript">
+        function valida_envia(){
+            if(document.contenedor_formulario.nombre.value.length==0){
+                alert("Hay campos obligatorios incompletos")
+                document.contenedor_formulario.nombre.focus()
+                return 0;
+            }
+            if(document.contenedor_formulario.Correo.value.length==0){
+                alert("Hay campos obligatorios incompletos")
+                document.contenedor_formulario.Correo.focus()
+                return 0;
+            }
+            if(document.contenedor_formulario.apellido1.value.length==0){
+                alert("Hay campos obligatorios incompletos")
+                document.contenedor_formulario.apellido1.focus()
+                return 0;
+            }
+            if(document.contenedor_formulario.Asunto.value.length==0){
+                alert("Hay campos obligatorios incompletos")
+                document.contenedor_formulario.Asunto.focus()
+                return 0;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+    
+
+    <!-- BANNER INICIAL -->
+    <div class="bannerinicial">
+        <img class="logo" src="img/logo.png" alt="">
+    </div>
+
+    <!-- TITULO -->
+
+    <div class="conttitulo">
+        <h1>Datos del alumno</h1>
+    </div>
+    <br>
+
+    <!-- barra de color  gris-->
+
+    <div class="barragris">
+
+    </div>
+
+    <!-- barra de color roja -->
+    <div class="colorojo">
+
+    </div>
+
+
+    <!-- formulario con los 3 divs :c -->
+
+    <div class="general">
+
+        <br>
+        <!-- izquierda -->
+        <form action="" name="contenedor_formulario" method="post">
+        <div class="formulario">
+
+            
+            <h5 class="naranja"> *Campos obligatorios</h5>
+<br><br>
+            <div class="formulario2">
+    <p class="normal">CURP:</p>
+    <br>
+    <input class="nada" type="text" placeholder="CURP">
+    <br><br>
+    <p  class="normal">Nombre*:</p>
+    <br>
+    <input class="nada" type="text" name="nombre"  placeholder="Nombres">
+    <br><br>
+
+    <p class="normal">Correo electronico*:</p>
+    <br>
+    <input class="nada" name="Correo" type="Correo" placeholder="Correo">
+    <br><br>
+
+    <p class="normal">Teléfono fijo:</p>
+    <br>
+    <input class="nada" type="text" placeholder="Teléfono fijo">
+    <br>
+
+            </div>
+
+        </div>
+
+
+        <!-- medio -->
+
+        <div class="formulario">
+            <br><br><br><br><br><br>
+    
+            
+            <a class="buscador" href="https://www.gob.mx/curp/" target="_blank">Consultar CURP 🔍︎ </a>
+
+                <br><br><br>
+
+
+            <div class="formulario2">
+    <p class="normal">Primer Apellido*:</p>
+    <br>
+    <input class="nada" name="apellido1" type="text" placeholder="Primer Apellido">
+    <br><br>
+    <p  class="normal">Sexo:</p>
+    <br>
+    <select class="helvetica"  name="" id="">
+        <option value="">Seleccione una opción</option>
+        <option  value="">Mujer</option>
+        <option  value="">Hombre</option>
+    </select>
+    <br><br>
+
+    <p class="normal">Celular:</p>
+    <br>
+    <input class="nada" type="text" placeholder="Celular">
+    <br>
+
+   
+
+            </div>
+
+        </div>
+
+    
+    
+        <!-- derecha -->
+
+        <div class="formulario">
+            <br><br><br><br><br><br><br><br><br>
+
+            <p class="normal">Segundo Apellido:</p>
+            <br>
+            <input class="nada" type="text" placeholder="Segundo Apellido">
+            <br><br>
+            <p  class="normal">Fecha de nacimiento:</p>
+            <br>
+            <input class="nada" type="date" placeholder="dd/mm/aaaa">
+            <br>
+    
+        </div>
+        <br><br><br><br><br><br>
+        <p class="normal">Asunto*</p>
+        <textarea name="Asunto" id="" cols="30" rows="10"></textarea>
+
+        <br><br>
+        
+        <input class="enviar" type="button" value="enviar" id="enviar" onclick="valida_envia()">
+    </form>
+        
+
+        <br><br><br>
+
+        <div class="bannerfinal">
+            <br>
+            <p class="textofinal">DAVID OMAR LARA MEX <br>7SB <br> PROGRAMACIÓN WEB
+            </p>
+
+        </div>
+
+
+
+
+
+
+</body>
+</html>

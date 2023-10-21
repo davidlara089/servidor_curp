@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+body{
+    width: 1200px;
+    text-align: center;
+
+}
+
+.bannerinicial{
+    margin: 1px lightgrey solid;
+    width: 1200px;
+    height: 180px;
+    background-color: lightgrey;
+}
+.logo{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.conttitulo{
+    width: 1200px;
+    height: 33px;
+
+}
+
+h1{
+    font-family: arial;
+    margin-right: 900px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.barragris{
+    border: 1px lightgrey solid;
+    background-color: lightgrey;
+    width: 1180px;
+    height: 5px;
+    margin-left: 25px;
+
+}
+
+.colorojo{
+    border: 1px #631233 solid;
+    background-color: brown;
+    width: 50px;
+    height: 10px;
+    margin-right: 1500px;
+    margin-left: 25px;
+    
+}
+
+.naranja{
+    color:#631233;
+    font-size: 15px;
+    font-family: arial;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+
+/* formulario */
+
+.general{
+
+    width: 1200px;
+    margin: auto;
+}
+
+.izquierda{
+    display: inline-block;
+    width: 450px;
+    vertical-align: top;
+    border: 1px red solid;
+    margin-right: 30px;
+
+
+}
+
+
+
+
+
+.medio{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+h2{
+    color: white;
+    border: 1px #283341 solid;
+    background-color: #283341;
+}
+
+
+
+
+h3{
+    color: #273341;
+    text-decoration: underline;
+}
+
+
+
+
+
+p{
+    color: white;
+}
+
+.normal{
+    color: black;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+
+
+.formulario{
+width: 33%;
+display: inline-block;
+vertical-align: top;
+height: 420px;
+}
+
+
+
+
+
+
+
+
+
+.buscador{
+    border: 1px #631233 solid;
+    background-color: #631233;
+    text-decoration: none;
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    color: white;
+    margin-right: 200px;
+    border-radius: 5px;
+
+}
+
+
+.nada{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.helvetica{
+    width: 350px;
+    height: 40px;
+
+}
+
+textarea{
+    resize: none;
+    width: 1150px;
+    height: 300px;
+
+}
+
+.enviar{
+    border: 1px #631233 solid;
+    background-color: #631233;
+    text-decoration: none;
+    width: 100px;
+    height: 45px;
+    padding: 10px;
+    color: white;
+    margin-right: 1050px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: lighter;
+}
+
+.bannerfinal{
+    width: 1200px;
+    height: 150px;
+    border: 1px #631233 solid;
+    background-color: #631233;
+
+}
+
+.textofinal{
+    margin-top: 15px;
+    font-family: aial;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+}
